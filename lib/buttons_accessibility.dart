@@ -24,10 +24,12 @@ class ColumnsAccessibilityPage extends StatelessWidget {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                // IconButton padrão
                 IconButton(
                   onPressed: () {},
                   icon: const Icon(Icons.add_alert),
                 ),
+                // IconButton com melhoria para leitores de tela
                 IconButton(
                   onPressed: () {},
                   icon: const Icon(Icons.add_alert),
@@ -39,12 +41,14 @@ class ColumnsAccessibilityPage extends StatelessWidget {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                // TextButton padrão
                 TextButton(
                   onPressed: () {},
                   child: Text(
                     '₿ $bitcoins ',
                   ),
                 ),
+                // TextButton com melhoria para leitores de tela
                 TextButton(
                   onPressed: () {},
                   child: Text(
